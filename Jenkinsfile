@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'yourname-jenkins-agent' }
+  agent { label 'nico-jenkins-agent' }
 
   environment {
     // Make Go builds more reproducible in CI
